@@ -1,0 +1,9 @@
+src/
+tests/
+*.test.js
+coverage/
+.gitignore
+.travis.yml
+.editorconfig
+.eslintrc
+.idea/

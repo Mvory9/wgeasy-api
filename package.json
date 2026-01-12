@@ -1,0 +1,48 @@
+{
+  "name": "wgeasy-api",
+  "version": "1.0.0",
+  "description": "TypeScript/JavaScript client library for interacting with the WgEasy (WireGuard Easy) API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wgeasy",
+    "wireguard",
+    "wireguard-easy",
+    "vpn",
+    "api",
+    "client",
+    "typescript",
+    "wg-easy"
+  ],
+  "author": "Mvory9",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mvory9/wgeasy-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mvory9/wgeasy-api/issues"
+  },
+  "homepage": "https://github.com/Mvory9/wgeasy-api#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/qrcode": "^1.5.6",
+    "typescript": "^5.0.0"
+  }
+}
