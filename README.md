@@ -1,4 +1,4 @@
-# wgeasy-api
+# api-wgeasy
 
 [![npm version](https://img.shields.io/npm/v/api-wgeasy.svg)](https://www.npmjs.com/package/api-wgeasy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -26,13 +26,13 @@ A TypeScript/JavaScript client library for interacting with the WgEasy (WireGuar
 ### Installation
 
 ```bash
-npm install wgeasy-api
+npm install api-wgeasy
 ```
 
 ### Quick Start
 
 ```typescript
-import { WgEasyClient, LogLevel } from 'wgeasy-api';
+import { WgEasyClient, LogLevel } from 'api-wgeasy';
 
 async function main() {
     // Create client with auto-connect
@@ -258,7 +258,7 @@ import {
     AuthenticationException,
     NetworkException,
     TimeoutException,
-} from 'wgeasy-api';
+} from 'api-wgeasy';
 
 try {
     const client = await wg.getClient('invalid-id');
@@ -305,7 +305,7 @@ client.lastSeenFormatted;     // string | null (e.g., "5m ago")
 Configure logging levels:
 
 ```typescript
-import { LogLevel } from 'wgeasy-api';
+import { LogLevel } from 'api-wgeasy';
 
 const wg = new WgEasyClient({
     baseUrl: 'http://localhost:51821',
@@ -419,13 +419,13 @@ GitHub: https://github.com/Mvory9/api-wgeasy
 ### Установка
 
 ```bash
-npm install wgeasy-api
+npm install api-wgeasy
 ```
 
 ### Быстрый старт
 
 ```typescript
-import { WgEasyClient, LogLevel } from 'wgeasy-api';
+import { WgEasyClient, LogLevel } from 'api-wgeasy';
 
 async function main() {
     // Создание клиента с автоподключением
@@ -651,7 +651,7 @@ import {
     AuthenticationException,
     NetworkException,
     TimeoutException,
-} from 'wgeasy-api';
+} from 'api-wgeasy';
 
 try {
     const client = await wg.getClient('invalid-id');
@@ -698,7 +698,7 @@ client.lastSeenFormatted;     // string | null (например, "5m ago")
 Настройка уровней логирования:
 
 ```typescript
-import { LogLevel } from 'wgeasy-api';
+import { LogLevel } from 'api-wgeasy';
 
 const wg = new WgEasyClient({
     baseUrl: 'http://localhost:51821',
