@@ -1,5 +1,3 @@
-// src/utils/HttpClient.ts
-
 import { IHttpOptions, IApiResponse, ILogger } from '../types';
 import {
     NetworkException,

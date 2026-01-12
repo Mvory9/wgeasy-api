@@ -1,5 +1,5 @@
 {
-  "name": "wgeasy-api",
+  "name": "api-wgeasy",
   "version": "1.0.0",
   "description": "TypeScript/JavaScript client library for interacting with the WgEasy (WireGuard Easy) API",
   "main": "dist/index.js",

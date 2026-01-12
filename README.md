@@ -1,6 +1,6 @@
 # wgeasy-api
 
-[![npm version](https://img.shields.io/npm/v/wgeasy-api.svg)](https://www.npmjs.com/package/wgeasy-api)
+[![npm version](https://img.shields.io/npm/v/api-wgeasy.svg)](https://www.npmjs.com/package/api-wgeasy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A TypeScript/JavaScript client library for interacting with the WgEasy (WireGuard Easy) API. This library provides a type-safe, event-driven interface for managing WireGuard clients, configurations, and monitoring server status.
@@ -396,7 +396,7 @@ MIT License - see [LICENSE](LICENCE) file for details.
 
 ### Repository
 
-GitHub: https://github.com/Mvory9/wgeasy-api
+GitHub: https://github.com/Mvory9/api-wgeasy
 
 ---
 
@@ -789,4 +789,4 @@ MIT License - см. файл [LICENSE](LICENCE) для деталей.
 
 ### Репозиторий
 
-GitHub: https://github.com/Mvory9/wgeasy-api
+GitHub: https://github.com/Mvory9/api-wgeasy
